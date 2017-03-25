@@ -31,15 +31,16 @@
         android:layout_height="wrap_content"
         android:text="ROLL"
         tools:layout_editor_absoluteX="16dp"
-        tools:layout_editor_absoluteY="208dp" />
+        tools:layout_editor_absoluteY="200dp" />
 
     <Button
         android:id="@+id/button2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="HOLD"
-        tools:layout_editor_absoluteX="104dp"
-        tools:layout_editor_absoluteY="208dp" />
+        tools:layout_editor_absoluteY="200dp"
+        app:layout_constraintLeft_toRightOf="@+id/button"
+        android:layout_marginLeft="0dp" />
 
     <Button
         android:id="@+id/button3"
@@ -47,6 +48,6 @@
         android:layout_height="wrap_content"
         android:text="RESET"
         tools:layout_editor_absoluteX="192dp"
-        tools:layout_editor_absoluteY="208dp" />
+        tools:layout_editor_absoluteY="200dp" />
 
 </android.support.constraint.ConstraintLayout>
